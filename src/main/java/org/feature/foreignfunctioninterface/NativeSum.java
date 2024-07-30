@@ -7,5 +7,5 @@ public class NativeSum {
     }
 
     // Declare the native method to add two integers
-    public native boolean add(int a, int b);
+    public native String add(int a, int b);
 }

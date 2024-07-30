@@ -22,6 +22,6 @@ public class NativeSumTest {
 
     @Test
     public void nativeAdd() {
-        assertTrue(nativeSum.add(a, b));
+        assertTrue(nativeSum.add(a, b), true);
     }
 }
